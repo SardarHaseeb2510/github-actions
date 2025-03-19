@@ -1,10 +1,10 @@
-const { lendBook, viewBooks } = require("./books");
+const { lendBook, viewBooks } = require("./src/books");
 
 const testLendingSystem = () => {
-    console.log("Running tests...");
+    console.log("Running tests");
 
-    lendBook("Dune", "Frank Herbert", "Alice", "2025-04-05", "Science Fiction");
-    lendBook("1984", "George Orwell", "Bob", "2025-04-10", "Fiction");
+    lendBook("book1", "abc", "xyz", "2026-07-04", "Fiction");
+    lendBook("1999", "abc", "xyz", "2026-05-9", "NonFiction");
 
     const fictionBooks = viewBooks({ category: "Fiction" });
     console.log("Fiction Books:", fictionBooks);
