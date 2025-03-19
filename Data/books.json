@@ -1,0 +1,9 @@
+[
+    {
+        "title": "The Bookd",
+        "author": "ABC",
+        "borrower": "XYZ",
+        "dueDate": "2036-06-05",
+        "category": "Fiction"
+    }
+]
